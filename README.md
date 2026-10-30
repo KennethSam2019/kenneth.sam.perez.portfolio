@@ -1,21 +1,20 @@
-# Kenneth Sam Perez Portfolio
+# Kenneth Sam Perez — Developer Portfolio
 
-Complete static website project published through Sites.
+Personal portfolio featuring software development, freelance services, business automation, and AI-assisted engineering.
 
-## Files
-- dist/index.html: Complete HTML, CSS, and JavaScript source. All three KSP images are embedded so the page works as a standalone file.
-- dist/assets/: Original KSP image files for reuse and editing.
-- .openai/hosting.json: Existing Sites project identity and static hosting configuration.
+**Website:** https://kennethsam2019.github.io/kenneth.sam.perez.portfolio/
 
-## Run locally
-Extract the ZIP, then open dist/index.html in a browser. No dependencies or build step are required.
+## Included
 
-## Edit
-Edit dist/index.html in a text editor. Styles are in the style element and behavior is in the script element. The original images are also supplied in dist/assets.
+- Introduction based on my LinkedIn profile
+- Career timeline with a total experience counter that updates automatically and counts overlapping roles once
+- NexaCode Tech inventory and invoicing project
+- Responsive layouts, animations, and reduced-motion support
 
-## Hosting
-Publish the dist directory using a static website host. For Sites updates, retain .openai/hosting.json to update the existing project.
+## Run and edit
 
-Published URL: https://kenneth-sam-perez-portfolio.free-ray-4084.chatgpt.site
+Open `index.html` in a browser. It includes the page markup, styles, scripts, and embedded images; no installation or build is required. The `assets/` folder contains original brand artwork for reuse.
 
-Git history and temporary credentials are not included.
+Edit `index.html` and push to `main` to update the website. GitHub Pages publishes the repository root, and `.nojekyll` keeps it as a plain static site.
+
+The experience counter reads the `data-start` and `data-end` values on career entries. Use `YYYY-MM` for dates and `present` for an ongoing role. It uses completed calendar months in Asia/Manila.
